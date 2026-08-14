@@ -1,9 +1,9 @@
 cask "cadencr" do
   arch arm: "-arm64", intel: ""
 
-  version "0.11.1"
-  sha256 arm:   "d201125a06d8b0d7798b7ce11d1bc09541ba0c1789520d1ffed77c30957439a7",
-         intel: "7ee34d87480487f07768d7c599aeeae43526fcd899a37697bda215977d8a90ab"
+  version "0.11.2"
+  sha256 arm:   "d1784e41ceaf438f4ce8e0d68eea54de1fdb07d09f5223f55a998803e3e5e425",
+         intel: "04a78130cb099eb358d2e1749b5e85c09ae7c2e846f0c23d192839f3468ac860"
 
   url "https://github.com/merkr-software/cadencr/releases/download/v#{version}/Cadencr-#{version}#{arch}.dmg",
       verified: "github.com/merkr-software/cadencr/"
